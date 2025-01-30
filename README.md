@@ -1,0 +1,3 @@
+# Inefficient SQL Query: Missing Indexes
+
+This repository demonstrates a common SQL performance issue: using queries without appropriate indexes on large tables.  The `bug.sql` file shows an example query that performs a full table scan instead of using an index, leading to slow execution times. The solution in `bugSolution.sql` demonstrates how to add indexes to significantly improve query performance.
